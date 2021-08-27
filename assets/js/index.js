@@ -53,7 +53,7 @@ function renderAvatar(user) {
     // 3.按需渲染用户 的头像
     if (user.user_pic !== null) {
         // 3.1渲染图片头像
-        console.log($('.layui-nav-img'));
+        // console.log($('.layui-nav-img'));
         $('.layui-nav-img')
             .attr('src', user.user_pic)
             .show()

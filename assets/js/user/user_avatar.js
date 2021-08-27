@@ -30,7 +30,7 @@ $(function () {
         }
         // 1.拿到用户选择的文件
         var file = filelist[0]
-        console.log(file);
+        // console.log(file);
         // 2.将文件转化为路径
         var newImgURL = URL.createObjectURL(file)
         // 3.重新初始化裁剪区域
